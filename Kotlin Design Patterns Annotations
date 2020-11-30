@@ -1,0 +1,34 @@
+Kotlin Design Patterns Annotations
+
+1) Creational Patterns
+
+1.1) Singleton
+- Only one instance.
+- Uses: network manager, database access, logging, utility class(es).
+
+1.2) Factory
+- Provides a way to acess functionality without caring about implementation.
+- Provides separation of concerns.
+- Testability.
+ 
+1.3) Abstract Factory
+- Provides a way to acess functionality without caring about implementation and also without caring where we get that object, where we get that data and how we get it.
+- Provides separation of concerns.
+- Testability.
+
+1.4) Builder
+- Used when have multiple parameters to intialize and some of which are optional.
+
+1.5) Lazy Initialization
+- Useful technique for memory management.
+- Initialize a resource when it's needed, not when declared.
+- Only used for large objects.
+
+1.6) Prototype
+- Copy existing objects withou need to know how the class works.
+- The copy object must provide the copy functionality.
+
+
+
+
+
