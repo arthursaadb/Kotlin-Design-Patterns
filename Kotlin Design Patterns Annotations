@@ -38,6 +38,14 @@ Kotlin Design Patterns Annotations
 - Each handler decides to process the request AND / OR pass it on
 - Request can be of different types
 
+2.3) Command
+- A request is wrapped in an object that contains all request info
+- The command object is passed to the correct handler
 
+2.4) Strategy
+ - A class behaviour or algorithm can be changed at run time
+ - Objects contain algorithm logic
+ - Context object tha can handle algorithm objects
+ - Useful when we want to be able to add functionality without changing program strcuture
 
 
