@@ -28,6 +28,15 @@ Kotlin Design Patterns Annotations
 - Copy existing objects withou need to know how the class works.
 - The copy object must provide the copy functionality.
 
+2) Behavioural Patterns
+
+2.1) Observer
+
+2.2) Chain of responsibility
+- Define a chain of handlers to process a request
+- Each handler contains a reference to the next handler
+- Each handler decides to process the request AND / OR pass it on
+- Request can be of different types
 
 
 
